@@ -57,7 +57,7 @@ helm template ./charts/open-policy-agent --namespace opa --set kubernetes_policy
     - /etc/origin/master/opa-policy-controller.kubeconfig  
 ```
 
-These above steps are intentionally left manual because the are significnaly differetn between the 3.x and 4.x version of OCP.
+These above steps are intentionally left manual because they are significanty different between the 3.x and 4.x version of OCP.
 
 ## Examples
 
