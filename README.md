@@ -19,6 +19,10 @@ add the following fragment to your `master-config.yaml` file at the section admi
         kubeConfigFile: /dev/null
 ```
 
+For OpenShift 4 this can be used:
+https://docs.openshift.com/container-platform/4.4/architecture/admission-plug-ins.html
+
+
 Indentify the value of the OpenShift service caBundle.
 One way to do is to run:
 
